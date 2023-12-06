@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="testimonialStyles.css">
+</head>
+<body>
+  <div class="testimonial-container">
+    <p class="test-title">Testimonials</p>
+    <div class="tiles-wrapper">
+      <div class="tile">
+          <div class="tile-num">1/3</div>
+          <!--The section below can be replaced by an image and caption to create an gallery slideshow-->
+          
+          <div class="test-tile">
+              <!--First testimony-->
+            <div class="test-bg left">
+              <div class="test test-one left">
+                <img src="./images/css-command.jpg" alt="Testimonial Four Profile Picture" class="test-img">
+                <div class="test-ts-bg left">
+                  <p class="test-titl bolder left">Clinton Ashu</p>
+                  <p class="test-occ smaller left">Founder, <a href="/web-name" class="tweb-link">S Automotives</a></p>
+                  <p class="test-test left"><span class="quote">&quot;</span> Outstanding customer care support! I reached out to them and they got back to me right away and fixed my issue in less than an hour. Good at what they do!</p>
+                </div>
+              </div>
+            </div>
+
+            <!--second testimony-->
+            <div class="test-bg right border-color">
+              <div class="test test-one right">
+                <img src="./images/css-command.jpg" alt="Testimonial Two Profile Picture" class="test-img">
+                <div class="test-ts-bg right">
+                  <p class="test-titl bolder right">Alison Nasike</p>
+                  <p class="test-occ smaller right">COO, <a href="/website-made" class="tweb-link">Grocries Online</a></p>
+                  <p class="test-test left"><span class="quote">&quot;</span>I entrusted my 3 domains to them for three years. I hope to work with them even longer.</p>
+                </div>
+              </div>
+            </div>
+
+            </div>
+      </div>
+
+
+      <div class="tile">
+          <div class="tile-num">2/3</div>
+          <div class="test-tile">
+              <!--First testimony-->
+            <div class="test-bg left">
+              <div class="test test-one left">
+                <img src="./images/css-command.jpg" width="60" alt="Testimonial Four Profile Picture" class="test-img">
+                <div class="test-ts-bg left">
+                  <p class="test-titl bolder left">Martin Maingi</p>
+                  <p class="test-occ smaller left">Founder, <a href="/web-name" class="tweb-link">Currency Corporation</a></p>
+                  <p class="test-test left"><span class="quote">&quot;</span> Will definitely hire them again!</p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <!--second testimony-->
+            <div class="test-bg right border-color">
+              <div class="test test-one ">
+                <img src="./images/css-command.jpg" alt="Testimonial Two Profile Picture" class="test-img">
+                <div class="test-ts-bg right">
+                  <p class="test-titl bolder ">Jessicca Pearson</p>
+                  <p class="test-occ smaller ">CTO, <a href="/website-made" class="tweb-link">Parrezo Arts</a></p>
+                  <p class="test-test left"><span class="quote">&quot;</span> Highly recommended!</p>
+
+                </div>
+              </div>
+            </div>
+
+            </div>
+      </div>
+
+
+      <div class="tile">
+          <div class="tile-num">3/3</div>
+          <div class="test-tile">
+              <!--First testimony-->
+            <div class="test-bg left">
+              <div class="test test-one left">
+                <img src="./images/css-command.jpg" width="60" alt="Testimonial Four Profile Picture" class="test-img">
+                <div class="test-ts-bg left">
+                  <p class="test-titl bolder left">Linet Nasike</p>
+                  <p class="test-occ smaller left">Start Up, <a href="/web-name" class="tweb-link">Youth Online</a></p>
+                  <p class="test-test left"><span class="quote">&quot;</span> Superior designs!</p>
+
+                </div>
+              </div>
+            </div>
+
+            <!--second testimony-->
+            <div class="test-bg right border-color">
+              <div class="test test-one right">
+                <img src="./images/css-command.jpg" alt="Testimonial Two Profile Picture" class="test-img">
+                <div class="test-ts-bg right">
+                  <p class="test-titl bolder right">Arleen Anyango</p>
+                  <p class="test-occ smaller right">COO, <a href="/website-made" class="tweb-link">XTR CHEMICALS LTD</a></p>
+                  <p class="test-test left"><span class="quote">&quot;</span> Outstanding customer care support! I reached out to them and they got back to me right away and fixed my issue in less than an hour. Good at what they do!</p>
+
+                </div>
+              </div>
+            </div>
+
+            </div>
+      </div>
+
+      <!--Next and previous buttons-->
+      <a href="/" role="button" onclick="addSlide(-1)" class="prev">&#10094;</a>
+      <a href="/" role="button" onclick="addSlide(1)" class="next">&#10095;</a>
+
+  </div>
+  <br>
+
+  <!--Indicators-->
+  <div class="indicators" style="text-align: center;">
+      <span class="ind" onclick="currentPage(1)"></span>
+      <span class="ind" onclick="currentPage(2)"></span>
+      <span class="ind" onclick="currentPage(3)"></span>
+  </div>
+
+  </div>
+    
+<script src="testimonialScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tiles-wrapper">
+        <div class="tile">
+            <div class="tile-num">1/3</div>
+            <img src="./images/bing-des.png" alt="" class="tile-img" style="width: 100%">
+            <div class="caption">Caption 1</div>
+        </div>
+
+
+        <div class="tile">
+            <div class="tile-num">2/3</div>
+            <img src="./images/CLIENTS.jpg" alt="" class="tile-img" style="width: 100%">
+            <div class="caption">Caption 2</div>
+        </div>
+
+
+        <div class="tile">
+            <div class="tile-num">3/3</div>
+            <img src="./images/css-command.jpg" alt="" class="tile-img" style="width: 100%">
+            <div class="caption">Caption 3</div>
+        </div>
+
+        <!--Next and previous buttons-->
+        <a href="/" role="button" onclick="addSlide(-1)" class="prev">&#10094;</a>
+        <a href="/" role="button" onclick="addSlide(1)" class="next">&#10095;</a>
+
+    </div>
+    <br>
+
+    <!--Indicators-->
+    <div class="indicators" style="text-align: center;">
+        <span class="ind" onclick="currentPage(1)"></span>
+        <span class="ind" onclick="currentPage(2)"></span>
+        <span class="ind" onclick="currentPage(3)"></span>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
